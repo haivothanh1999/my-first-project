@@ -1,8 +1,18 @@
+package LinkedList;
+
+import java.util.List;
 import java.util.LinkedList;
 
 public class DemoLinkedList {
  
+     public static void main(String[] args) {
+ // Tạo một đối tượng LinkedList.
+    List<String> list = new LinkedList<>();
     list.add("F");
+    list.add("B");
+    list.add("D");
+    list.add("E");
+    list.add("C");
     System.out.println(list);
   // Chèn thêm phân từ vào list ở vị trí 1
     list.add(1, "A2");
